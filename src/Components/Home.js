@@ -12,7 +12,8 @@ function Home() {
         <div>
  <Container  className="btn-home"  >
   <Row >
-    <Col sm={6}>
+    <Col sm={12}>
+      <h4>Welcome to Musalasoft Gateway System</h4>
       <div style={{display:'flex', 
       justifyContent:'center', alignItems:'center'}}>
     <Link to="/createg">    
@@ -22,7 +23,7 @@ function Home() {
     </Link>
     </div>
     </Col>
-    <Col sm={6}>
+    {/* <Col sm={6}>
       <div style={{display:'flex', 
       justifyContent:'center', alignItems:'center'}}>
     <Link to="/addd">    
@@ -31,7 +32,7 @@ function Home() {
     </Button>
     </Link>
     </div>
-    </Col>
+    </Col> */}
 
   </Row>
 </Container>

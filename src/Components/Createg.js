@@ -33,7 +33,7 @@ function Createg() {
     date.getSeconds() / 2);
 
         let result = await fetch(
-        'http://localhost:4000/musalasoft/gateways', {
+        'https://musalasoft.herokuapp.com/musalasoft/gateways', {
             method: "Post",
             body: JSON.stringify({
               serialNumber:vserial, 

@@ -31,7 +31,7 @@ function Addd() {
    
   //  setSpinner(true)
     try{
-      fetch('http://localhost:4000/musalasoft/devices?id='+id,
+      fetch('https://musalasoft.herokuapp.com/musalasoft/devices?id='+id,
       {
         
       }
@@ -68,7 +68,7 @@ function Addd() {
 
 const handleDelete = (id)=>{
 
-  let result = fetch('http://localhost:4000/musalasoft/devices?id=' + id, {
+  let result = fetch('https://musalasoft.herokuapp.com/musalasoft/devices?id=' + id, {
         method: "delete"
     });
 
@@ -95,7 +95,7 @@ let created = date.getDay()+'/'+ date.getMonth() + '/'+ date.getFullYear();
     let uuid = Math.floor(date.getTime() +  date.getSeconds() / 2);
 
     let result = await fetch(
-    'http://localhost:4000/musalasoft/devices', {
+    'https://musalasoft.herokuapp.com/musalasoft/devices', {
         method: "Post",
         body: JSON.stringify({
           uid:uuid, 
@@ -212,4 +212,4 @@ let created = date.getDay()+'/'+ date.getMonth() + '/'+ date.getFullYear();
      
 }
 
-export default Addd;
+export default Addd; 

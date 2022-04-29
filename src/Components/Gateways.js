@@ -63,7 +63,7 @@ function Gateways() {
    
     //  setSpinner(true)
       try{
-        fetch('http://localhost:4000/musalasoft/gateways',
+        fetch('https://musalasoft.herokuapp.com/musalasoft/gateways',
         {
           
         }
