@@ -92,7 +92,7 @@ function Createg() {
                             Please provide a valid ipv4 Address</Form.Control.Feedback>
                        </Form.Group>
                        {/* <Link to="/thankspage"> */}
-                       <Button className='btn-c' variant="danger"
+                       <Button className='btn-a' variant="danger"
                         
                        size='lg' type="submit"> Register
                        </Button>
