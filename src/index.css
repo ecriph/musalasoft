@@ -83,13 +83,7 @@
 }
 
 
-.header{
 
-  display:'flex';
-  justify-content: center;
-  align-items: center;
-  margin-top: 4vw;
-}
 .contt{
   margin-top: 5vw;
   padding-top: 5vw;
