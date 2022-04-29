@@ -13,9 +13,12 @@ function Home() {
  <Container  className="btn-home"  >
   <Row >
     <Col sm={12}>
+
+    <h4 style={{display:'flex', 
+      justifyContent:'center', alignItems:'center'}}>Welcome to Musalasoft Gateway System</h4>
+
       <div style={{display:'flex', 
       justifyContent:'center', alignItems:'center'}}>
-              <h4>Welcome to Musalasoft Gateway System</h4>
 
     <Link to="/createg">    
     <Button  className='btn-create' >
