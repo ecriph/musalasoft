@@ -3,7 +3,7 @@
 .btn-create {
   /* background-color: red !important; */
   color: hsl(0, 0%, 100%) !important;
-  width: 28vw;
+  width: auto;
   height: 8vw;
   margin-top: 20vw;
   
