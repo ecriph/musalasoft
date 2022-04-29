@@ -1,0 +1,113 @@
+
+
+.btn-create {
+  background-color: red !important;
+  color: hsl(0, 0%, 100%) !important;
+  width: 28vw;
+  height: 8vw;
+  font-size: x-large !important;
+  border-radius: 0px !important;
+  margin-top: 20vw;
+
+  border-radius: 20px !important;
+  border: 0px !important;
+  
+}
+
+.btn-add {
+  background-color: red !important;
+  color: white !important;
+  width: 28vw;
+  height: 8vw;
+  font-size: x-large !important;
+  margin-top: 20vw;
+  border-radius: 20px !important;
+  border: 0px !important;
+}
+
+.cont{
+  margin-top: 5vw;
+  font-weight: bold !important;
+}
+
+.cont1{
+  margin-top: 5vw;
+  padding-top: 5vw;
+  font-weight: bold !important;
+  padding-bottom: 5vw;
+
+}
+
+.mb-3{
+  background-color: grey !important;
+  
+}
+
+.btn-c{
+  width: 40vw !important;
+  margin-top: 3vw !important;
+  justify-content: center !important;
+  
+}
+
+.btn-z{
+  width: 10vw !important;
+  /* margin-top: 3vw !important; */
+  justify-content: center !important;
+  
+}
+
+.btn-a{
+  width: 40vw !important;
+  margin-top: 4vw !important;
+}
+
+.select{
+  background-color: grey !important;
+  color: aliceblue !important;
+}
+
+.headt{
+ background-color: gray;
+ color: aliceblue;
+
+ 
+}
+
+.Offline{
+  color: red;
+}
+
+.Online{
+  color: green;
+}
+
+.contt{
+  margin-top: 5vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  padding-left: 5vw;
+}
+
+.tableh2{
+  border: 2px solid gray !important;
+  padding: 0px !important;
+  width: 70vw !important;
+  margin-top: 1vw !important;
+align-content: center;}
+
+.tablet{
+ margin-top: 2vw !important;
+}
+
+.col-center{
+
+  justify-content: center;
+}
+
+
+.padup{
+
+  padding-top: 7vw;
+  margin-left: 5vw;
+}
