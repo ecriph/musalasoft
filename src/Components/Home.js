@@ -12,10 +12,10 @@ function Home() {
         <div>
  <Container  className="btn-home"  >
   <Row >
-    <Col sm={12}>
+    <Col sm={12}> 
 
     <h4 style={{display:'flex', 
-      justifyContent:'center', alignItems:'center', marginBottom:-50}}>Welcome to Musalasoft Gateway System</h4>
+      justifyContent:'center', alignItems:'center', marginBottom:-50, paddingTop:50}}>Welcome to Musalasoft Gateway System</h4>
 
       <div style={{display:'flex', 
       justifyContent:'center', alignItems:'center'}}>
