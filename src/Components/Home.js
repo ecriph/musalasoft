@@ -21,7 +21,7 @@ function Home() {
       justifyContent:'center', alignItems:'center'}}>
 
     <Link to="/createg">    
-    <Button  className='btn-z' size='lg' variant='danger' >
+    <Button  className='btn-create' size='lg' variant='danger' >
       Create a Gateway
     </Button>
     </Link>
